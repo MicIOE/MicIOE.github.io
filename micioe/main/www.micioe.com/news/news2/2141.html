@@ -1,0 +1,612 @@
+<!doctype html>
+<html>
+
+<!-- Mirrored from www.micioe.com/news/news2/2141.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 Jul 2016 01:10:35 GMT -->
+<head>
+<meta charset="utf-8">
+<title>【创客X2】智能并非都联网 轻客如何做电单车？_智能硬件 - 最专业的移动智能硬件开发商-MicIoE微物联科技</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="stylesheet"href="../../style/css/base.css" />
+<link href="../../style/css/common.css" rel="stylesheet" type="text/css" />
+<script src="../../style/js/jquery.js"></script>
+<script src="../../style/js/base.js"></script>
+<script type="text/javascript" src="../../style/js/jquery-1.11.2.js"></script>
+<script>
+    window.jrBase = {
+        navId : 'nav-loan',
+        navSubId : 'nav-sub-loanIndex',
+        footerFix : true,
+        headerFix : true,
+       
+    };
+</script>
+<script language="javascript" type="text/javascript"
+
+<script language="javascript" type="text/javascript" src="../../include/dedeajax2.js"></script>
+
+<script language="javascript" type="text/javascript">
+<!--
+function CheckLogin(){
+	  var taget_obj = document.getElementById('_ajax_feedback');
+	  myajax = new DedeAjax(taget_obj,false,false,'','','');
+	  myajax.SendGet2("../../member/ajax_feedback.html");
+	  DedeXHTTP = null;
+}
+function postBadGood(ftype,fid)
+{
+	var taget_obj = document.getElementById(ftype+fid);
+	var saveid = GetCookie('badgoodid');
+	if(saveid != null)
+	{
+		var saveids = saveid.split(',');
+		var hasid = false;
+		saveid = '';
+		j = 1;
+		for(i=saveids.length-1;i>=0;i--)
+		{
+			if(saveids[i]==fid && hasid) continue;
+			else {
+				if(saveids[i]==fid && !hasid) hasid = true;
+				saveid += (saveid=='' ? saveids[i] : ','+saveids[i]);
+				j++;
+				if(j==10 && hasid) break;
+				if(j==9 && !hasid) break;
+			}
+		}
+		if(hasid) { alert('您刚才已表决过了喔！'); return false;}
+		else saveid += ','+fid;
+		SetCookie('badgoodid',saveid,1);
+	}
+	else
+	{
+		SetCookie('badgoodid',fid,1);
+	}
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+	myajax.SendGet2("../../plus/feedback45d0.html?aid="+fid+"&action="+ftype+"&fid="+fid);
+}
+function postDigg(ftype,aid)
+{
+	var taget_obj = document.getElementById('newdigg');
+	var saveid = GetCookie('diggid');
+	if(saveid != null)
+	{
+		var saveids = saveid.split(',');
+		var hasid = false;
+		saveid = '';
+		j = 1;
+		for(i=saveids.length-1;i>=0;i--)
+		{
+			if(saveids[i]==aid && hasid) continue;
+			else {
+				if(saveids[i]==aid && !hasid) hasid = true;
+				saveid += (saveid=='' ? saveids[i] : ','+saveids[i]);
+				j++;
+				if(j==20 && hasid) break;
+				if(j==19 && !hasid) break;
+			}
+		}
+		if(hasid) { alert("您已经顶过该帖，请不要重复顶帖 ！"); return; }
+		else saveid += ','+aid;
+		SetCookie('diggid',saveid,1);
+	}
+	else
+	{
+		SetCookie('diggid',aid,1);
+	}
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+	var url = "../../plus/digg_ajaxe83f.html?action="+ftype+"&id="+aid;
+	myajax.SendGet2(url);
+}
+function getDigg(aid)
+{
+	var taget_obj = document.getElementById('newdigg');
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+	myajax.SendGet2("../../plus/digg_ajax5445.html?id="+aid);
+	DedeXHTTP = null;
+}
+-->
+</script>
+<style>
+.container::before, .container::after, .row_list::before, .row_list:after {
+	display: table;
+	content: " ";
+}
+.container::after, .row_list:after {
+	clear: both;
+}
+*, *::before, *::after {
+	box-sizing: border-box !important;
+}
+.dede_pages ul li{ width:47px;}
+</style>
+</head>
+
+<body style="overflow:-Scroll;overflow-x:hidden">
+<style type="text/css">
+<!--
+.STYLE1 {color: #FF3300}
+-->
+</style>
+<div class="header">
+  <div class="topbar" id="topbar">
+    <div class="grid-1200 topbar-wrap clearfix">
+      <div class="topbar-left">
+        <ul class="toplink">
+          <li class="toplink-link"> <i class="icon icon-home"></i> <a href="http://micioe.com" target="_blank">网站首页</a> </li>
+        </ul>
+      </div>
+      <div class="topbar-right">
+        <ul class="topmenu fl">
+          <li class="topmenu-item topmenu-userinfo"> <span id="loginbar"></span> </li>
+          <li class="topmenu-item"> <a target="_blank" href="http://micioe.com/micioe/1.html" clstag="jr|keycount|jr_shouye|jiaoyidan">MicIoE微物联创客</a> </li>
+          <li id="app-jr" class="topmenu-item dropdown topmenu-dropdown" data-hover="topmenu-dropdown-hover"> <i class="drop-arrow"></i> <b class="topmenu-app-ico"></b> <a href="http://micioe.com/open/1.html" target="_blank" class="topmenu-outline" clstag="jr|keycount|jr_shouye|sjjr">云智能硬件</a>
+            <div class="dropbox clearfix">
+              <div class="fl"> <img src="https://cbu01.alicdn.com/img/ibank/2016/030/461/3320164030_506682427.jpg"> </div>
+              <div class="fr"> <span class="topmenu-app-tip">下载客户端</span> <a class="topmenu-app-iphone" target="_blank" href="#367"></a> <a class="topmenu-app-android" target="_blank" href="#458"></a> </div>
+            </div>
+          </li>
+          <li id="topbar-help" class="topmenu-item dropdown topmenu-dropdown" data-hover="topmenu-dropdown-hover"> <i class="drop-arrow"></i> <a  target="_blank" href="http://tmtctw.cn" class="topmenu-outline">增材制造</a>
+          </li>
+          <li class="spacer"></li>
+          <li data-load="1" class="fore9 dorpdown" id="ttbar-navs" clstag="h|keycount|2015|01j">
+            <div class="dt cw-icon"> <i class="ci-right"><s>◇</s></i>网站导航 </div>
+            <div class="dd dorpdown-layer">
+              <div class="dd-spacer"></div>
+              <dl class="fore1">
+                <dt>特色主题</dt>
+                <dd>
+                  <div class="item"><a href="../new1/index.html" target="_blank">行业新闻</a></div>
+                  <div class="item"><a href="http://micioe.com/open/1.html" target="_blank">近期项目</a></div>
+                  <div class="item"><a href="../../and/and/index.html" target="_blank">研发中</a></div>
+                  <div class="item"><a href="../../and/ist/index.html" target="_blank">投资人项目</a></div>
+                  <div class="item"><a href="../../cooper/us/index.html" target="_blank">地区负责</a></div>
+                  <div class="item"><a href="http://micioe.com/open/1.html" target="_blank">MicIoE首发</a></div>
+                  <div class="item"><a href="http://micioe.com/open/1.html" target="_blank">产品团购</a></div>
+                  <div class="item"><a href="../new1/index.html" target="_blank">智能知识</a></div>
+                  <div class="item"><a href="../new1/index.html" target="_blank">公司新闻</a></div>
+                  <div class="item"><a href="http://weibo.com/fenzimeisi" target="_blank">MicIoE会员</a></div>
+                  <div class="item"><a href="http://weibo.com/fenzimeisi" target="_blank">进度查询</a></div>
+                  <div class="item"><a href="../../service/app/index.html" target="_blank">app创意</a></div>
+                  <div class="item"><a href="../../and/ist/index.html" target="_blank">产品融资</a></div>
+                  <div class="item"><a href="../../cooper/vation/index.html" target="_blank">营销合作</a></div>
+                  <div class="item"><a href="../../cooper/us/index.html" target="_blank">国外市场</a></div>
+                  <div class="item"><a href="../../cooper/us/index.html" target="_blank">约谈项目</a></div>
+                  <div class="item"><a href="../../cooper/us/index.html" target="_blank">打样合作</a></div>
+                  <div class="item"><a href="http://micioe.com/main/www.micioe.com" target="_blank" class="STYLE1">微信接入</a></div>
+                  <div class="item"><a href="http://micioe.com/open/1.html" target="_blank">创意点子</a></div>
+
+                  <div class="item"><a href="http://micioe.com/open/1.html" target="_blank">项目众筹</a></div>
+                </dd>
+              </dl>
+              <dl class="fore2">
+                <dt>智能开发</dt>
+                <dd>
+                  <div class="item"><a href="../../service/hard/index.html" target="_blank">硬件打板</a></div>
+                  <div class="item"><a href="../../service/hard/index.html" target="_blank">电路调试</a></div>
+                  <div class="item"><a href="../../service/future/index.html" target="_blank">未来展示</a></div>
+                  <div class="item"><a href="../../team/core/index.html" target="_blank">核心技术</a></div>
+                  <div class="item"><a href="../../team/techgy/index.html" target="_blank">技术核心</a></div>
+                  <div class="item"><a href="../../team/techgy/index.html" target="_blank">开发成员</a></div>
+                   <div class="item"><a href="../../case/case1/index.html" target="_blank">玩具类</a></div>
+                  <div class="item"><a href="../../case/case1/index.html" target="_blank">娱乐智能</a></div>
+                  <div class="item"><a href="../../case/case1/index.html" target="_blank">迭代类</a></div>
+                  <div class="item"><a href="../../case/case1/index.html" target="_blank">传统升级</a></div>
+                  <div class="item"><a href="../../design/design/index.html" target="_blank">工业设计</a></div>
+                  <div class="item"><a href="../../service/hard/index.html" target="_blank">硬件调试</a></div>
+                  <div class="item"><a href="../../service/app/index.html" target="_blank">软件开发</a></div>
+                  <div class="item"><a href="../../design/design/index.html" target="_blank">智能外形</a></div>
+                  <div class="item"><a href="../../service/app/index.html" target="_blank">智能APP</a></div>
+                </dd>
+              </dl>
+              <dl class="fore3">
+                <dt>MicIoE微物联服务</dt>
+                <dd>
+                  <div class="item"><a href="../../case/index.html" target="_blank">智能案例</a></div>
+                  <div class="item"><a href="../../case/case1/ent/index.html" target="_blank">开发</a></div>
+                  <div class="item"><a href="../../case/case1/cloud/index.html" target="_blank">智能产品</a></div>
+                  <div class="item"><a href="../../case/m8/index.html" target="_blank">智能点子</a></div>
+                  <div class="item"><a href="../../case/case1/cloud/index.html" target="_blank">创意开发</a></div>
+                  <div class="item"><a href="../../case/m8/index.html" target="_blank">运动APP</a></div>
+                  <div class="item"><a href="../../case/circuit/index.html" target="_blank">集成电路</a></div>
+                  <div class="item"><a href="../../case/index.html" target="_blank">女性类</a></div>
+                  <div class="item"><a href="../../case/index.html" target="_blank">汽车类</a></div>
+                  <div class="item"><a href="../../service/harder/index.html" target="_blank">硬件创意</a></div>
+                  <div class="item"><a href="../../service/harder/index.html" target="_blank">硬件智能</a></div>
+                  <div class="item"><a href="../../service/reform/index.html" target="_blank">硬件改造</a></div>
+                  <div class="item"><a href="../../case/circuit/index.html" target="_blank">电路开发</a></div>
+                  <div class="item"><a href="../new3/index.html" target="_blank">知识库</a></div><div class="item"><a href="http://tmtctw.cn" target="_blank">3D打印</a></div>
+                </dd>
+              </dl>
+              <dl class="fore4">
+                <dt>关于MicIoE微物联</dt>
+                <dd>
+                  <div class="item"><a href="../../about/about_a/index.html" target="_blank">MicIoE简介</a></div>
+                  <div class="item"><a href="../../about/team/index.html" target="_blank">MicIoE文化</a></div>
+                  <div class="item"><a href="../../about/recruit/index.html" target="_blank">人才招聘</a></div>
+                  <div class="item"><a href="../../cooper/idea/index.html" target="_blank">智能理念</a></div>
+                  <div class="item"><a href="../../about/roop/index.html" target="_blank">研发合作</a></div>
+                  <div class="item"><a href="../../cooper/project/index.html" target="_blank">智能投资</a></div>
+                  <div class="item"><a href="../../about/team/index.html" target="_blank">技术团队</a></div>
+                  <div class="item"><a href="../../cooper/us/index.html" target="_blank">厂家合作</a></div>
+                  <div class="item"><a href="../../cooper/us/index.html" target="_blank">研发投资</a></div>
+                  <div class="item"><a href="../../cooper/project/index.html" target="_blank">MicIoE项目</a></div>
+                  <div class="item"><a href="../../cooper/project/index.html" target="_blank">项目合作</a></div>
+                  <div class="item"><a href="../../cooper/us/index.html" target="_blank">渠道合作</a></div>
+                  <div class="item"><a href="../../cooper/vation/index.html" target="_blank">创新服务</a></div>
+                  <div class="item"><a href="../../cooper/idea/index.html" target="_blank">理念合作</a></div>
+                  <div class="item"><a href="../../cooper/us/index.html" target="_blank">联系我们</a></div>
+                </dd>
+              </dl>
+            </div>
+          </li>
+        </ul>
+        <ul class="toplink fl">
+          <li class="toplink-item dropdown toplink-dropdown " data-hover="toplink-dropdown-hover"> <i class="icon icon-weixin"></i>
+            <ul class="dropbox dropbox-weixin">
+              <li><a href="http://weibo.com/fenzimeisi" target="_blank"><img src="https://cbu01.alicdn.com/img/ibank/2016/234/728/3333827432_506682427.jpg" alt="MicIoE微物联智能硬件" border="0"/></a>
+                <h6>订阅智能硬件</h6>
+              </li>
+            </ul>
+          </li>
+          <li class="toplink-item dropdown toplink-dropdown" data-hover="toplink-dropdown-hover"> <i class="icon icon-weibo"></i>
+            <ul class="dropbox dropbox-weibo">
+              <li><a href="http://weibo.com/fenzimeisi" target="_blank"><img src="//img.alicdn.com/imgextra/i2/1105832541/TB2aVVCXjzyQeBjy1zdXXaInpXa_!!1105832541.jpg" alt="MicIoE微物联创客微博" border="0"/></a></li>
+              
+            </ul>
+          </li>
+          <li class="login"><a href="../../denglu/index.html" target="_blank" class="btnd btn-dim">登录</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+<div class="main-nav">
+    <div class="grid-1200 nav-wrap pr clearfix">
+      <div class="main-nav-logo fl"> <a href="http://micioe.com/micioe/1.html" clstag="jr|keycount|jr_shouye|jrlogo"> <img src="//img.alicdn.com/imgextra/i2/1105832541/TB29lYXuXXXXXbUXXXXXXXXXXXX_!!1105832541.png" width="400" height="56" alt="MicIoE微物联科技"> </a> </div>
+      <div class="nav fl">
+        <ul class="nav-box fl clearfix" id="navBox">
+          <li id="nav-index" class="nav-item"><a class="nav-item-primary" href="http://micioe.com/micioe/1.html" clstag="jr|keycount|jr_shouye|shouye">网站首页</a></li>
+          <li id="nav-licai" class="nav-item"> <a class="nav-item-primary" href="../../about_a/index.html" clstag="jr|keycount|jr_shouye|jr_shouye_licai">关于我们</a>
+            <ul class="dropbox">
+            
+              <li><a href="../../about/about_a/index.html" clstag="jr|keycount|jr_shouye|jjxjk">MicIoE简介</a></li>
+              <li><a href="../../about/team/index.html" clstag="jr|keycount|jr_shouye|jjxjk">团队文化</a></li>
+              <li><a href="../../about/recruit/index.html" clstag="jr|keycount|jr_shouye|jjxjk">人才招聘</a></li>
+              <li><a href="../../about/roop/index.html" clstag="jr|keycount|jr_shouye|jjxjk">研发合作</a></li>
+            </ul>
+          </li><li id="nav-licai" class="nav-item"> <a class="nav-item-primary" href="http://micioe.com/main/www.micioe.com" clstag="jr|keycount|jr_shouye|jr_shouye_licai">创客资讯</a>
+            <ul class="dropbox">
+            
+              <li><a href="../new1/index.html" clstag="jr|keycount|jr_shouye|jjxjk">公司新闻</a></li>
+              <li><a href="index.html" clstag="jr|keycount|jr_shouye|jjxjk">行业新闻</a></li>
+              <li><a href="../new3/index.html" clstag="jr|keycount|jr_shouye|jjxjk">专业知识</a></li>
+            </ul>
+          </li><li id="nav-licai" class="nav-item"> <a class="nav-item-primary" href="../../case/index.html" clstag="jr|keycount|jr_shouye|jr_shouye_licai">智能案例</a>
+            <ul class="dropbox">
+            
+              <li><a href="../../case/case/index.html" clstag="jr|keycount|jr_shouye|jjxjk">智能案例</a></li>
+              <li><a href="../../case/case1/index.html" clstag="jr|keycount|jr_shouye|jjxjk">智能产品</a></li>
+              <li><a href="../../case/m8/index.html" clstag="jr|keycount|jr_shouye|jjxjk">创意开发</a></li>
+              <li><a href="../../case/circuit/index.html" clstag="jr|keycount|jr_shouye|jjxjk">集成电路</a></li>
+            </ul>
+          </li><li id="nav-licai" class="nav-item"> <a class="nav-item-primary" href="../../design/index.html" clstag="jr|keycount|jr_shouye|jr_shouye_licai">管理团队</a>
+            <ul class="dropbox">
+            
+              <li><a href="../../team/techgy/index.html" clstag="jr|keycount|jr_shouye|jjxjk">技术团队</a></li>
+            </ul>
+          </li><li id="nav-licai" class="nav-item"> <a class="nav-item-primary" href="../../service/index.html" clstag="jr|keycount|jr_shouye|jr_shouye_licai">智能集成</a>
+            <ul class="dropbox">
+            
+              <li><a href="../../service/hard/index.html" clstag="jr|keycount|jr_shouye|jjxjk">硬件打板</a></li>
+              <li><a href="../../service/harder/index.html" clstag="jr|keycount|jr_shouye|jjxjk">硬件创意</a></li>
+              <li><a href="../../service/future/index.html" clstag="jr|keycount|jr_shouye|jjxjk">未来展示</a></li>
+              <li><a href="../../service/app/index.html" clstag="jr|keycount|jr_shouye|jjxjk">APP软件</a></li>
+              <li><a href="../../service/reform/index.html" clstag="jr|keycount|jr_shouye|jjxjk">改造方案</a></li>
+            </ul>
+          </li><li id="nav-licai" class="nav-item"> <a class="nav-item-primary" href="../../and/index.html" clstag="jr|keycount|jr_shouye|jr_shouye_licai">项目框架</a>
+            <ul class="dropbox">
+            
+              <li><a href="../../and/and/index.html" clstag="jr|keycount|jr_shouye|jjxjk">正在研发</a></li>
+              <li><a href="../../and/ist/index.html" clstag="jr|keycount|jr_shouye|jjxjk">投资合作</a></li>
+            </ul>
+          </li><li id="nav-licai" class="nav-item"> <a class="nav-item-primary" href="../../cooper/index.html" clstag="jr|keycount|jr_shouye|jr_shouye_licai">合作联系</a>
+            <ul class="dropbox">
+            
+              <li><a href="../../cooper/us/index.html" clstag="jr|keycount|jr_shouye|jjxjk">联系我们</a></li>
+              <li><a href="../../cooper/vation/index.html" clstag="jr|keycount|jr_shouye|jjxjk">创新服务</a></li>
+              <li><a href="../../cooper/idea/index.html" clstag="jr|keycount|jr_shouye|jjxjk">理念合作</a></li>
+              <li><a href="../../cooper/project/index.html" clstag="jr|keycount|jr_shouye|jjxjk">自主项目</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div></div>
+<div class="post-img margin-t87" style="background: url('../../uploads/allimg/c160220/14559B35M4A0-113964.jpg') no-repeat center center;background-size:cover;">
+  <div class="overlay"></div>
+  <div class="single-inner">
+    <div class="post-head">
+      <h3 class="title">【创客X2】智能并非都联网 轻客如何做电单车？</h3>
+    </div>
+    <div class="post-meta">
+      <div class="autor-meta"> <a class="autor" href="#"> <img src="//img.alicdn.com/imgextra/i2/1105832541/TB2nMlAXg_xQeBjy0FoXXX1vpXa_!!1105832541.jpg" alt="" class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo" height="26" width="30"> <span class="name">作者：</span> </a> <span class="post-time">2016-02-23 12:43</span> <span class="post-category"> <i class="icon-layout"></i>来源：</span> <a href="#gocomment" class="sm-comment"></a> <a href="#gocom">
+        <div class="comment">快速评论（<span>0</span>）</div>
+        </a> </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row_list">
+    <div class="main-content col-md-12 col-sm-12 col-xs-12">
+      <div class="outline">
+        <p></p></div>
+      &nbsp;
+    
+  
+<p class="f_center"><img alt="【创客X2】智能并非都联网 轻客如何做电单车？" src="../../uploads/allimg/c160220/14559B355FK0-5bb.jpg" /><br  /></p>
+<p><font color="文/小羿" face="楷体, 楷体_GB2312">文/小羿</font></p>
+<p>北方的寒冬将至，但是却并没有减少自行车领域火热的创业潮。</p>
+<p>在北京的北新桥附近的一个四合院里，轻客团队正在忙碌的准备着众筹后的交货。这辆在今年6月发布的电动自行车（轻客称之为智慧电单车），9月份获得了九合创投领投的4000万元A轮融资，10月份其电单车众筹开始两小时金额就突破了100万元。</p>
+<p>其实，不光轻客，从去年底前久邦数码联合总裁张向东加入700Bike做自行车开始，国内陆续涌现出了一大批做自行车的创业厂商，包括主打设计和非助力自行车的BiCi、曲奇；主打助力自行车的云马、Begin One和斑马；以及做自行车智能配件的蘑菇兄弟、野兽骑行等等。甚至，连<span class='wp_keywordlink'>百度</span>、<span class='wp_keywordlink'>小米</span>、<span class='wp_keywordlink'>乐视</span>等互联网大企业也在布局自行车。</p>
+<p class="f_center"><img alt="【创客X2】智能并非都联网 轻客如何做电单车？" src="../../uploads/allimg/c160220/14559B355U20-61540.jpg" /></p>
+<p>资本和创客的扎堆自行车，根本原因还是在于自行车市场足够庞大。数据显示，仅在中国，自行车平均年销量就达到了6000万辆，仅北京就有900万辆自行车，国内自行车保有量达到4亿。可见其市场规模。另外，随着中国越来越多的城市施行汽车限行限购，交通拥堵越来越严重，地铁公交人满为患，环境压力日益增加。这些原因也会促使自行车市场规模会越来越大。</p>
+<p class="f_center"><img alt="【创客X2】智能并非都联网 轻客如何做电单车？" src="../../uploads/allimg/c160220/14559B35B2540-KU3.jpg" /></p>
+<p>那么，轻客这支有着清华大学背景的团队，如何来做自行车？有什么杀手锏？未来机会在哪？又如何规划未来出行？近日，在北京<span class='wp_keywordlink'>maker</span> Faire上，轻客CBO刘文宁接受了网易科技的专访，详细阐述了轻客电单车的特点和未来规划。</p>
+<p><b>如何定义“智慧电单车”</b></p>
+<p>轻客将自己的第一款产品定义为“智慧电单车”，与普通自行车不同的是，轻客电单车设计简约轻巧，透着些许文艺气息。该车重量仅13公斤，配备了一块1公斤的锂电池提供助力，续航却能达到50-70公里，而且在骑行中用同样的力气，能达到普通自行车2-3倍的速度。</p>
+<p class="f_center"><img alt="【创客X2】智能并非都联网 轻客如何做电单车？" src="../../uploads/allimg/c160220/14559B35E2230-U054.jpg" /></p>
+<p>记者通过一周的骑行试用，发现轻客电单车与普通自行车的最大不同，就是采用了梯形车身。普通的自行车为了稳固性，都采用了三角形车架，而据轻客的设计师表示，梯形车架可以将骑行震动后移，避免对头管和座椅直接冲击。不过由于是20寸车架，轻客电单车并不能载人，可能在承重上有一定限制。</p>
+<p>轻客CBO刘文宁告诉网易科技，轻客团队创始成员有四人毕业于清华大学，创始人陈腾蛟毕业于清华美院交通工具造型设计专业，之前曾在日产英菲尼迪做汽车设计师。轻客电单车之所以注重外观设计，是因为好的设计和外观能给人带来愉悦感，轻客认为这能使骑车体验变得更好。</p>
+<p><b>特色在哪？ 能感知使用意图</b></p>
+<p>轻客自行车并不是徒有其表，还采用了VeloUP智慧动力系统。该技术能够让自行车主动感知用户骑行过程中所受的阻力，并实时输出相应的动力。通俗地说，就是能够通过一些<span class='wp_keywordlink'>传感器</span>和算法，感应到你在骑行过程中的费力程度，不断调整输出助力。在网易酷品栏目的体验中，轻客电单车在起步、上坡、逆风、长途的骑行场景中助力感受非常明显。</p>
+<p class="f_center"><img alt="【创客X2】智能并非都联网 轻客如何做电单车？" src="../../uploads/allimg/c160220/14559B35G2930-940P.jpg" /></p>
+<p>不过，轻客电单车即使开启最大助力，骑行时速也只有20公里。刘文宁称，这主要是因为国家处于安全考虑，对于自行车的速度进行了限制。</p>
+<p>需要注意的是，类似的技术并非轻客首创。在全世界范围内，博世、雅马哈等公司都有这项技术，但成本非常昂贵，多用于万元以上的高端自行车。刘文宁告诉网易科技，轻客要想使用这种技术并将成本降到主流价位，就必须自主设计研发自己的VeloUP动力系统。刘文宁称，目前轻客已经为VeloUP申请了11项国家专利。这个系统包括整车控制器（VCU）、传感器、电池、电机、局域控制网络。其中力矩传感器、踏频传感器、速度传感器的加入和算法是轻客最核心的技术。</p>
+<p>刘文宁称，轻客VeloUP动力系统的设计思路比较像汽车上的VCU车辆决策控制器。VCU通过采集油门踏板、挡位、刹车踏板等信号来判断驾驶员的驾驶意图，而VeloUP希望通过三个传感器来感知用户的骑行意图。传统的变速车都是通过手动换挡来实现的，在某个档位的助力永远是恒定的，无法达到智能化提供助力的体验。</p>
+<p><b>如何找准用户需求和产品定位</b><b></b></p>
+<p>700Bike定位城市自行车，曲奇自行车主打智能化，而轻客定位智慧电单车，自行车创业企业想要找准自己的产品定位，还需要对用户需求进行深度挖掘。</p>
+<p>作为一款交通工具和刚需产品，刘文宁认为，轻客电单车首先必须保证用户的功能需求，那就是作为一辆自行车，能够使用户更加方便快捷的到达目的地。其次，是社交需求，包括外观好不好看，是否有逼格，骑车体验如何等等。再次，还要注重情感需求，能给人安全、愉悦的感受。最后，是幅度需求，包括收集数据、分析数据，以及地图找车、夜晚亮灯等功能。</p>
+<p class="f_center"><img alt="【创客X2】智能并非都联网 轻客如何做电单车？" src="../../uploads/allimg/c160220/14559B35J3010-104250.jpg" /></p>
+<p>为了首要的功能需求，轻客电单车将车身重量设计在13公斤以内，电池重量仅1公斤，充电时间仅需两小时，并且依靠电量控制系统将续航里程延长到50-70公里。这些都体现出轻客对自行车工具属性的执着。</p>
+<p>作为刚需性的产品，自行车企业似乎对智能化并不是十分感冒，更多的是一种噱头式的存在。这一点在轻客身上也不例外。记者在体验轻客电单车一周的时间内，只打开过一次轻客APP，并且使用时间不超过五分钟。这并不是说轻客APP和联网功能不好用，而是整个互联网自行车行业目前把重心都集中在硬件本身，先发展硬件，以硬件带动软件的发展。</p>
+<p>
+
+
+
+<p>这并不是说所有的<span class='wp_keywordlink'>智能硬件</span>都要遵循这种路径发展，但是对于一些硬件需求很强的产品，的确需要先将硬件本身做好才能取得更好的发展。毕竟，<span class='wp_keywordlink'>大数据</span>和万物互联时代离我们还有一段时间。</p>
+<p>自行车已经进化了200年，而且轻量化、电动化慢慢成为当前的趋势。据悉，轻客电单车售价3580元，定位于城市年轻人，期望能满足10公里以内的出行需求。但是不容忽视的一个问题就是，在这样的价位段，有速度更快的电动车可供用户选择，更有新兴的<span class='wp_keywordlink'>小牛电动车</span>出现。在这种情况下，轻客电单车要想获得更多的用户，不仅仅靠设计和动力系统，还要更多的关注自行车硬件本身的研发，以及在未来万物互联时代为用户提供更好的数据服务。</p>
+<p>这样的自行车，你会买单吗？欢迎发表跟帖，与作者交流讨论。</p>
+      <div class="dede_pages">
+   <ul class="pagelist">
+   
+   </ul>
+  </div>
+      <div class="copyright-statement">
+        <p> <span class="text-blue">版权声明：</span> 本文作者<a href="#" target="_blank"></a>，文中所述为作者独立观点，不代表立场。 </p>
+      </div>
+      <div class="approe" onclick="javascript:postDigg('good',2141)" id="gocom"> <span class="num" id="supports">(0)</span> </div>
+      <div class="row tags-warp">
+        <div class="col-md-6 sm-share">
+          <div class="row">
+            
+            <div class="col-md-6 col-xs-7 clearfix">
+              
+              
+              
+              <div class="bshare-custom icon-medium-plus"><a title="分享到QQ空间" class="bshare-qzone"></a><a title="分享到新浪微博" class="bshare-sinaminiblog"></a><a title="分享到人人网" class="bshare-renren"></a><a title="分享到腾讯微博" class="bshare-qqmb"></a><a title="分享到网易微博" class="bshare-neteasemb"></a><a title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a><span class="BSHARE_COUNT bshare-share-count">0</span></div><script type="text/javascript" charset="utf-8" src="../../../static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh"></script><script type="text/javascript" charset="utf-8" src="../../../static.bshare.cn/b/bshareC0.js"></script>
+              
+              
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="tags"> <span class="text-tag">标签</span>  </div>
+        </div>
+        <div id="comments"> 
+      
+      <!--评论框-->
+      <div class="commentpost" id="comment"> <!-- Duoshuo Comment BEGIN -->
+	<div class="ds-thread"  data-thread-key="2141" data-author-key="1"  data-url="http://www.micioe.com/news/news2/2141.html"  data-image="http://www.micioe.com/uploads/allimg/c160220/14559B35M4A0-113964.jpg" data-title="【创客X2】智能并非都联网 轻客如何做电单车？"></div>
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name: "bgu"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = '../../../static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- Duoshuo Comment END --><div id="ds-ssr" class="mt1">
+	<dl class="tbox">
+		<dt> <strong>评论列表（网友评论仅供网友表达个人看法，并不表明本站同意其观点或证实其描述）</strong> </dt>
+		<dd>
+			<div class="dede_comment">
+				<div class="decmt-box1">
+					<ul>
+						<li id="commetcontentNew"></li>
+
+ 
+					</ul>
+				</div>
+			</div>
+		</dd>
+	</dl>
+</div>
+
+ </div>
+    </div>
+      </div>
+      
+    </div>
+    
+  </div>
+  
+</div>
+
+<script type="text/javascript" src="../../style/js/jquery.SuperSlide.2.1.1.js"></script>
+<!-- footer start -->
+
+<footer style="background-image: url(//img.alicdn.com/imgextra/i1/1105832541/TB2Z6a3uXXXXXasXpXXXXXXXXXX_!!1105832541.jpg);" class="pingpu-bg" id="yy">
+  <div id="demo" class="footer container sx-padding">
+    <div class="clearfix wow animated fadeIn">
+      <section>
+        <h3>在线预约 Online booking</h3>
+        <form action="http://www.micioe.com/plus/diy.php" enctype="multipart/form-data" method="post" name="lansige" onSubmit="return CheckForm()" >
+          <input type="hidden" name="action" value="post" />
+          <input type="hidden" name="diyid" value="2" />
+          <input type="hidden" name="do" value="2" />
+          <ul class="list-unstyled">
+            <li>
+              <input name="xm" type="text" id="xm" value="" placeholder="您的尊称 Name" maxlength="10" >
+            </li>
+            <li>
+              <input name="dh" type="text" id="dh" value="" placeholder="您的电话 Phone" maxlength="11">
+            </li>
+            <li>
+              <textarea name="nr" cols="" id="nr" value="" placeholder="您要留言的内容 Content" maxlength="200">您要留言的内容 Content</textarea>
+            </li>
+            <input type="hidden" name="dede_fields" value="xm,text;dh,text;nr,multitext" />
+            <input type="hidden" name="dede_fieldshash" value="af9692c6aaa5752e3fce5a141f10a7c8" />
+            <li>
+              <input type="submit" name="submit" value="提 交" class='coolbg' />
+            </li>
+          </ul>
+        </form>
+        <div id="savediv" style="visibility:hidden;">处理中,请勿进行其他操作...</div>
+        <script language="javascript" type="text/javascript">
+function gosavenow(){
+savediv.style.visibility="visible";}
+</script> 
+        <script language="javascript" type="text/javascript">
+function CheckForm() {
+if(lansige.xm.value == '') {
+alert('对不起！请输入您的称呼！');
+lansige.xm.focus();
+return false;}   
+if(lansige.dh.value == '') {
+alert('对不起！请输入您的电话！');
+lansige.dh.focus();
+return false;}    
+var re = new RegExp("^([0-9])+$","ig");
+{if (!re.test(lansige.dh.value))
+{alert("对不起！电话只能是0-9的数字！");
+lansige.dh.focus();
+return false;}}
+if(lansige.nr.value == '') {
+alert('对不起！请输入您的留言内容(不超过200个字)！');
+lansige.nr.focus();
+return false;}  
+gosavenow();}
+</script> 
+      </section>
+      <section class="bianju">
+        <h3>联系我们 Contact US</h3>
+        <address>
+        <ul class="list-unstyled">
+          <li>公司地址：福州市闽侯上街大学城路海西科技园10号楼留创园</li>
+          <li>服务电话：950-40402754（境内/境外可直拨我司950服务电话） </li>
+          <li>项目服务：VR强应用（微信公众号）</li>
+          <li>Q　　Q：504115485-客服咨询</li>
+          <li>E-mail：504115485@QQ.com（项目保密合作）</li>
+        </ul>
+        </address>
+        <h4>快捷入口 Quick Entry</h4>
+        <p>  <a href="../../about_a/index.html" target="_blank">关于我们</a> / 
+           <a href="http://micioe.com/main/www.micioe.com" target="_blank">创客资讯</a> / 
+           <a href="../../case/index.html" target="_blank">智能案例</a> / 
+           <a href="../../design/index.html" target="_blank">管理团队</a> / 
+           <a href="../../service/index.html" target="_blank">智能集成</a> / 
+           <a href="../../and/index.html" target="_blank">项目框架</a> / 
+           <a href="../../cooper/index.html" target="_blank">合作联系</a> / 
+           <a href="../../social/index.html" target="_blank">数据报告</a> /  <a href="../../statement/index.html" target="_blank">版权声明</a> / <a href="../../and/ist/index.html" target="_blank">投资</a> / <a href="../../service/future/index.html" target="_blank">未来硬件</a> / <a href="http://tmtctw.cn" target="_blank">3D打印</a></p>
+        <p class="zhixun"> <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=504115485&amp;site=qq&amp;menu=yes" class="qq" target="_blank">在线QQ咨询</a> </p>
+      </section>
+      <section>
+        <h3>内容搜索 Search</h3>
+         <form name="formsearch" action="http://www.micioe.com/plus/search.php">
+           <ul class="list-unstyled">
+             <li><input name="q" type="text" class="key" value="输入关键词 Keyword" placeholder="输入关键词 Keyword" /><input type="submit" class="s-button" value="搜索" /></li>
+             </ul>
+             </form>
+              <form method="post" target="_blank" action="http://list.qq.com/cgi-bin/qf_compose_send">
+               <ul class="list-unstyled">
+                <li class="mail-tx">输入邮箱定期接收我们的最新信息</li>
+                 <li><input type="hidden" value="qf_booked_feedback" name="t" />
+                      <input type="hidden" value="79d7181ac4d8b0144664925406fa6b1ebc29568929546ae8" name="id" />
+                 <input type="text" class="mail" name="to" id="to" value="Email Address" placeholder="Email Address" /><input type="submit" class="m-button" value="提交"></li>
+                    </ul>
+                  </form>
+                  <div class="footer_img">
+                  <div class="footer_img_center">
+                  <P>产品经理</P>
+   <img src="https://cbu01.alicdn.com/img/ibank/2016/929/136/3320631929_506682427.jpg" />
+   </div>
+     <div class="footer_img_center floret">
+                  <P>官方公众</P>
+   <img src="https://cbu01.alicdn.com/img/ibank/2016/092/290/3320092290_506682427.jpg" />
+   </div>
+ </div>
+ </section>
+ 
+    </div>
+    <div class="yq-link">
+      <hr />
+      <p><strong>友情链接：</strong>  <a href="http://micioe.com/micioe/1.html" target="_blank">MicIoE微物联科技</a> <a href="http://micioe.com/micioe/1.html" target="_blank">智能硬件方案</a><small>友链申请QQ：504115485</small></p>
+    </div>
+  </div>
+<div class="foot">
+    <div class="container clearfix">
+      <p class="copy pull-left">Copyright &copy; 2002-2015 MicIoE微物联科技 ALL RIGHTS RESERVED <a href="http://www.miitbeian.gov.cn/state/outPortal/loginPortal.action" target="_blank">闽ICP备18010811号</a>  BY <a href="http://micioe.com/micioe/1.html" target="_blank">技术支持</a> <a href="../../problem/index.html" target="_blank">建议提交</a> <span>运行在<i class="tx"></i></span> <a href="http://weibo.com/fenzimeisi" target="_blank">闽ICP备18010811号</a></p>
+      <p class="renzheng pull-right text-right" style="text-align: right;"> <img src="//img.alicdn.com/imgextra/i3/1105832541/TB2AJjbuXXXXXXfXpXXXXXXXXXX_!!1105832541.png" width="32" height="32" alt="工商合法注册企业" title="工商合法注册企业" /> <img src="//img.alicdn.com/imgextra/i4/1105832541/TB2ZTvsuXXXXXaJXXXXXXXXXXXX_!!1105832541.png" width="32" height="32" alt="安全网站" title="安全网站" /> <img src="//img.alicdn.com/imgextra/i2/1105832541/TB26ri4uXXXXXbdXpXXXXXXXXXX_!!1105832541.png" width="32" height="32" alt="网上报警" title="网上报警" /> <img src="//img.alicdn.com/imgextra/i3/1105832541/TB2UmnauXXXXXXFXpXXXXXXXXXX_!!1105832541.png" width="32" height="32" alt="中国物联网协会会员" title="中国物邮网协会成员" /> <img src="//img.alicdn.com/imgextra/i4/1105832541/TB2st5ZuXXXXXbWXpXXXXXXXXXX_!!1105832541.png" width="32" height="32" alt="中国区块链协会成员" title="中国邮件区块链协会会员" /> </p>
+    </div>
+  </div>
+</footer>
+<!-- footer end --> 
+<!-- kehu start -->
+<div class="QQ_S">
+  <div class="Q_top" onclick="HideFoot()"> <span class="signi"></span>收起</div>
+  <div class="Q_botm">
+    <div class="Q_pic">
+      <div class="Q_pic_hide"> <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=504115485&amp;site=qq&amp;menu=yes" target="_blank" title="企业QQ交谈" rel="nofollow"><span class="hide_pic"></span>企业QQ交谈 </a> </div>
+    </div>
+    <div class="Q_anser">
+      <div class="Q_anser_hide"> <a href="https://eco-api.meiqia.com/dist/standalone.html?eid=5173&amp;agentid=d47074948994ad6ae940a42ad6117af9" title="提交有问必答"><span class="hide_pic1"></span>提交有问必答 </a> </div>
+    </div>
+    <div class="Q_sign">
+      <div class="Q_sign_hide" onclick="backToTop();"><a href="#topbar" title="返回顶部"><span class="hide_pic2"></span>返回顶部 </a></div>
+    </div>
+  </div>
+</div>
+<div class="QQ_S1">
+  <div class="Q_top1" onclick="ShowFoot()"> <span class="signj"></span>展开</div>
+  <div class="Q_botm1">
+    <div class="Q_pic1">
+      <div class="Q_pic1_hide"> <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=504115485&amp;site=qq&amp;menu=yes" rel="nofollow"><span class="hide_pic3"></span>QQ交谈</a></div>
+    </div>
+    <div class="Q_sign1">
+      <div class="Q_sign1_hide"><a href="#topbar">返回顶部</a></div>
+    </div>
+  </div>
+</div>
+<script src="../../style/js/lanrenzhijia.js"></script>
+<script type='text/javascript'>
+    (function(m, ei, q, i, a, j, s) {
+        m[a] = m[a] || function() {
+            (m[a].a = m[a].a || []).push(arguments)
+        };
+        j = ei.createElement(q),
+            s = ei.getElementsByTagName(q)[0];
+        j.async = true;
+        j.charset = 'UTF-8';
+        j.src = i;
+        s.parentNode.insertBefore(j, s)
+    })(window, document, 'script', '../../../eco-api.meiqia.com/dist/meiqia.js', '_MEIQIA');
+    _MEIQIA('entId', 5173);
+</script>
+<script> var _hmt = _hmt || []; (function() {   var hm = document.createElement("script");   hm.src = "../../../hm.baidu.com/hm21a2.js?436848be446d7628509a5f70f9514888";   var s = document.getElementsByTagName("script")[0];    s.parentNode.insertBefore(hm, s); })(); </script>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-105845586-1', 'auto');ga('send', 'pageview');</script></body>
+
+<!-- Mirrored from www.micioe.com/news/news2/2141.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 Jul 2016 01:10:35 GMT -->
+</html>
