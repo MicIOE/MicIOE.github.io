@@ -1,0 +1,646 @@
+<!doctype html>
+<html>
+
+<!-- Mirrored from www.micioe.com/news/news2/469.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 Jul 2016 01:25:08 GMT -->
+<head>
+<meta charset="utf-8">
+<title>Ticwatch体验式评测：充电和续航成瓶颈_智能硬件 - 最专业的移动智能硬件开发商-MicIoE微物联科技</title>
+<meta name="keywords" content="Ticwatch，智能手表" />
+<meta name="description" content="不知道是出于何种缘由，我特别喜欢体验智能化的可穿戴设备。智能化之所以带双引号，或许是我个人都还没有足够的底气称它们为智能设备吧。上一次体验的智能手表，是 inW..." />
+<link rel="stylesheet"href="../../style/css/base.css" />
+<link href="../../style/css/common.css" rel="stylesheet" type="text/css" />
+<script src="../../style/js/jquery.js"></script>
+<script src="../../style/js/base.js"></script>
+<script type="text/javascript" src="../../style/js/jquery-1.11.2.js"></script>
+<script>
+    window.jrBase = {
+        navId : 'nav-loan',
+        navSubId : 'nav-sub-loanIndex',
+        footerFix : true,
+        headerFix : true,
+       
+    };
+</script>
+<script language="javascript" type="text/javascript"
+
+<script language="javascript" type="text/javascript" src="../../include/dedeajax2.js"></script>
+
+<script language="javascript" type="text/javascript">
+<!--
+function CheckLogin(){
+	  var taget_obj = document.getElementById('_ajax_feedback');
+	  myajax = new DedeAjax(taget_obj,false,false,'','','');
+	  myajax.SendGet2("../../member/ajax_feedback.html");
+	  DedeXHTTP = null;
+}
+function postBadGood(ftype,fid)
+{
+	var taget_obj = document.getElementById(ftype+fid);
+	var saveid = GetCookie('badgoodid');
+	if(saveid != null)
+	{
+		var saveids = saveid.split(',');
+		var hasid = false;
+		saveid = '';
+		j = 1;
+		for(i=saveids.length-1;i>=0;i--)
+		{
+			if(saveids[i]==fid && hasid) continue;
+			else {
+				if(saveids[i]==fid && !hasid) hasid = true;
+				saveid += (saveid=='' ? saveids[i] : ','+saveids[i]);
+				j++;
+				if(j==10 && hasid) break;
+				if(j==9 && !hasid) break;
+			}
+		}
+		if(hasid) { alert('您刚才已表决过了喔！'); return false;}
+		else saveid += ','+fid;
+		SetCookie('badgoodid',saveid,1);
+	}
+	else
+	{
+		SetCookie('badgoodid',fid,1);
+	}
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+	myajax.SendGet2("../../plus/feedback45d0.html?aid="+fid+"&action="+ftype+"&fid="+fid);
+}
+function postDigg(ftype,aid)
+{
+	var taget_obj = document.getElementById('newdigg');
+	var saveid = GetCookie('diggid');
+	if(saveid != null)
+	{
+		var saveids = saveid.split(',');
+		var hasid = false;
+		saveid = '';
+		j = 1;
+		for(i=saveids.length-1;i>=0;i--)
+		{
+			if(saveids[i]==aid && hasid) continue;
+			else {
+				if(saveids[i]==aid && !hasid) hasid = true;
+				saveid += (saveid=='' ? saveids[i] : ','+saveids[i]);
+				j++;
+				if(j==20 && hasid) break;
+				if(j==19 && !hasid) break;
+			}
+		}
+		if(hasid) { alert("您已经顶过该帖，请不要重复顶帖 ！"); return; }
+		else saveid += ','+aid;
+		SetCookie('diggid',saveid,1);
+	}
+	else
+	{
+		SetCookie('diggid',aid,1);
+	}
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+	var url = "../../plus/digg_ajaxe83f.html?action="+ftype+"&id="+aid;
+	myajax.SendGet2(url);
+}
+function getDigg(aid)
+{
+	var taget_obj = document.getElementById('newdigg');
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+	myajax.SendGet2("../../plus/digg_ajax5445.html?id="+aid);
+	DedeXHTTP = null;
+}
+-->
+</script>
+<style>
+.container::before, .container::after, .row_list::before, .row_list:after {
+	display: table;
+	content: " ";
+}
+.container::after, .row_list:after {
+	clear: both;
+}
+*, *::before, *::after {
+	box-sizing: border-box !important;
+}
+.dede_pages ul li{ width:47px;}
+</style>
+</head>
+
+<body style="overflow:-Scroll;overflow-x:hidden">
+<style type="text/css">
+<!--
+.STYLE1 {color: #FF3300}
+-->
+</style>
+<div class="header">
+  <div class="topbar" id="topbar">
+    <div class="grid-1200 topbar-wrap clearfix">
+      <div class="topbar-left">
+        <ul class="toplink">
+          <li class="toplink-link"> <i class="icon icon-home"></i> <a href="http://micioe.com" target="_blank">网站首页</a> </li>
+        </ul>
+      </div>
+      <div class="topbar-right">
+        <ul class="topmenu fl">
+          <li class="topmenu-item topmenu-userinfo"> <span id="loginbar"></span> </li>
+          <li class="topmenu-item"> <a target="_blank" href="http://micioe.com/micioe/1.html" clstag="jr|keycount|jr_shouye|jiaoyidan">MicIoE微物联创客</a> </li>
+          <li id="app-jr" class="topmenu-item dropdown topmenu-dropdown" data-hover="topmenu-dropdown-hover"> <i class="drop-arrow"></i> <b class="topmenu-app-ico"></b> <a href="http://micioe.com/open/1.html" target="_blank" class="topmenu-outline" clstag="jr|keycount|jr_shouye|sjjr">云智能硬件</a>
+            <div class="dropbox clearfix">
+              <div class="fl"> <img src="https://cbu01.alicdn.com/img/ibank/2016/030/461/3320164030_506682427.jpg"> </div>
+              <div class="fr"> <span class="topmenu-app-tip">下载客户端</span> <a class="topmenu-app-iphone" target="_blank" href="#367"></a> <a class="topmenu-app-android" target="_blank" href="#458"></a> </div>
+            </div>
+          </li>
+          <li id="topbar-help" class="topmenu-item dropdown topmenu-dropdown" data-hover="topmenu-dropdown-hover"> <i class="drop-arrow"></i> <a  target="_blank" href="http://tmtctw.cn" class="topmenu-outline">增材制造</a>
+          </li>
+          <li class="spacer"></li>
+          <li data-load="1" class="fore9 dorpdown" id="ttbar-navs" clstag="h|keycount|2015|01j">
+            <div class="dt cw-icon"> <i class="ci-right"><s>◇</s></i>网站导航 </div>
+            <div class="dd dorpdown-layer">
+              <div class="dd-spacer"></div>
+              <dl class="fore1">
+                <dt>特色主题</dt>
+                <dd>
+                  <div class="item"><a href="../new1/index.html" target="_blank">行业新闻</a></div>
+                  <div class="item"><a href="http://micioe.com/open/1.html" target="_blank">近期项目</a></div>
+                  <div class="item"><a href="../../and/and/index.html" target="_blank">研发中</a></div>
+                  <div class="item"><a href="../../and/ist/index.html" target="_blank">投资人项目</a></div>
+                  <div class="item"><a href="../../cooper/us/index.html" target="_blank">地区负责</a></div>
+                  <div class="item"><a href="http://micioe.com/open/1.html" target="_blank">MicIoE首发</a></div>
+                  <div class="item"><a href="http://micioe.com/open/1.html" target="_blank">产品团购</a></div>
+                  <div class="item"><a href="../new1/index.html" target="_blank">智能知识</a></div>
+                  <div class="item"><a href="../new1/index.html" target="_blank">公司新闻</a></div>
+                  <div class="item"><a href="http://weibo.com/fenzimeisi" target="_blank">MicIoE会员</a></div>
+                  <div class="item"><a href="http://weibo.com/fenzimeisi" target="_blank">进度查询</a></div>
+                  <div class="item"><a href="../../service/app/index.html" target="_blank">app创意</a></div>
+                  <div class="item"><a href="../../and/ist/index.html" target="_blank">产品融资</a></div>
+                  <div class="item"><a href="../../cooper/vation/index.html" target="_blank">营销合作</a></div>
+                  <div class="item"><a href="../../cooper/us/index.html" target="_blank">国外市场</a></div>
+                  <div class="item"><a href="../../cooper/us/index.html" target="_blank">约谈项目</a></div>
+                  <div class="item"><a href="../../cooper/us/index.html" target="_blank">打样合作</a></div>
+                  <div class="item"><a href="http://micioe.com/main/www.micioe.com" target="_blank" class="STYLE1">微信接入</a></div>
+                  <div class="item"><a href="http://micioe.com/open/1.html" target="_blank">创意点子</a></div>
+
+                  <div class="item"><a href="http://micioe.com/open/1.html" target="_blank">项目众筹</a></div>
+                </dd>
+              </dl>
+              <dl class="fore2">
+                <dt>智能开发</dt>
+                <dd>
+                  <div class="item"><a href="../../service/hard/index.html" target="_blank">硬件打板</a></div>
+                  <div class="item"><a href="../../service/hard/index.html" target="_blank">电路调试</a></div>
+                  <div class="item"><a href="../../service/future/index.html" target="_blank">未来展示</a></div>
+                  <div class="item"><a href="../../team/core/index.html" target="_blank">核心技术</a></div>
+                  <div class="item"><a href="../../team/techgy/index.html" target="_blank">技术核心</a></div>
+                  <div class="item"><a href="../../team/techgy/index.html" target="_blank">开发成员</a></div>
+                   <div class="item"><a href="../../case/case1/index.html" target="_blank">玩具类</a></div>
+                  <div class="item"><a href="../../case/case1/index.html" target="_blank">娱乐智能</a></div>
+                  <div class="item"><a href="../../case/case1/index.html" target="_blank">迭代类</a></div>
+                  <div class="item"><a href="../../case/case1/index.html" target="_blank">传统升级</a></div>
+                  <div class="item"><a href="../../design/design/index.html" target="_blank">工业设计</a></div>
+                  <div class="item"><a href="../../service/hard/index.html" target="_blank">硬件调试</a></div>
+                  <div class="item"><a href="../../service/app/index.html" target="_blank">软件开发</a></div>
+                  <div class="item"><a href="../../design/design/index.html" target="_blank">智能外形</a></div>
+                  <div class="item"><a href="../../service/app/index.html" target="_blank">智能APP</a></div>
+                </dd>
+              </dl>
+              <dl class="fore3">
+                <dt>MicIoE微物联服务</dt>
+                <dd>
+                  <div class="item"><a href="../../case/index.html" target="_blank">智能案例</a></div>
+                  <div class="item"><a href="../../case/case1/ent/index.html" target="_blank">开发</a></div>
+                  <div class="item"><a href="../../case/case1/cloud/index.html" target="_blank">智能产品</a></div>
+                  <div class="item"><a href="../../case/m8/index.html" target="_blank">智能点子</a></div>
+                  <div class="item"><a href="../../case/case1/cloud/index.html" target="_blank">创意开发</a></div>
+                  <div class="item"><a href="../../case/m8/index.html" target="_blank">运动APP</a></div>
+                  <div class="item"><a href="../../case/circuit/index.html" target="_blank">集成电路</a></div>
+                  <div class="item"><a href="../../case/index.html" target="_blank">女性类</a></div>
+                  <div class="item"><a href="../../case/index.html" target="_blank">汽车类</a></div>
+                  <div class="item"><a href="../../service/harder/index.html" target="_blank">硬件创意</a></div>
+                  <div class="item"><a href="../../service/harder/index.html" target="_blank">硬件智能</a></div>
+                  <div class="item"><a href="../../service/reform/index.html" target="_blank">硬件改造</a></div>
+                  <div class="item"><a href="../../case/circuit/index.html" target="_blank">电路开发</a></div>
+                  <div class="item"><a href="../new3/index.html" target="_blank">知识库</a></div><div class="item"><a href="http://tmtctw.cn" target="_blank">3D打印</a></div>
+                </dd>
+              </dl>
+              <dl class="fore4">
+                <dt>关于MicIoE微物联</dt>
+                <dd>
+                  <div class="item"><a href="../../about/about_a/index.html" target="_blank">MicIoE简介</a></div>
+                  <div class="item"><a href="../../about/team/index.html" target="_blank">MicIoE文化</a></div>
+                  <div class="item"><a href="../../about/recruit/index.html" target="_blank">人才招聘</a></div>
+                  <div class="item"><a href="../../cooper/idea/index.html" target="_blank">智能理念</a></div>
+                  <div class="item"><a href="../../about/roop/index.html" target="_blank">研发合作</a></div>
+                  <div class="item"><a href="../../cooper/project/index.html" target="_blank">智能投资</a></div>
+                  <div class="item"><a href="../../about/team/index.html" target="_blank">技术团队</a></div>
+                  <div class="item"><a href="../../cooper/us/index.html" target="_blank">厂家合作</a></div>
+                  <div class="item"><a href="../../cooper/us/index.html" target="_blank">研发投资</a></div>
+                  <div class="item"><a href="../../cooper/project/index.html" target="_blank">MicIoE项目</a></div>
+                  <div class="item"><a href="../../cooper/project/index.html" target="_blank">项目合作</a></div>
+                  <div class="item"><a href="../../cooper/us/index.html" target="_blank">渠道合作</a></div>
+                  <div class="item"><a href="../../cooper/vation/index.html" target="_blank">创新服务</a></div>
+                  <div class="item"><a href="../../cooper/idea/index.html" target="_blank">理念合作</a></div>
+                  <div class="item"><a href="../../cooper/us/index.html" target="_blank">联系我们</a></div>
+                </dd>
+              </dl>
+            </div>
+          </li>
+        </ul>
+        <ul class="toplink fl">
+          <li class="toplink-item dropdown toplink-dropdown " data-hover="toplink-dropdown-hover"> <i class="icon icon-weixin"></i>
+            <ul class="dropbox dropbox-weixin">
+              <li><a href="http://weibo.com/fenzimeisi" target="_blank"><img src="https://cbu01.alicdn.com/img/ibank/2016/234/728/3333827432_506682427.jpg" alt="MicIoE微物联智能硬件" border="0"/></a>
+                <h6>订阅智能硬件</h6>
+              </li>
+            </ul>
+          </li>
+          <li class="toplink-item dropdown toplink-dropdown" data-hover="toplink-dropdown-hover"> <i class="icon icon-weibo"></i>
+            <ul class="dropbox dropbox-weibo">
+              <li><a href="http://weibo.com/fenzimeisi" target="_blank"><img src="//img.alicdn.com/imgextra/i2/1105832541/TB2aVVCXjzyQeBjy1zdXXaInpXa_!!1105832541.jpg" alt="MicIoE微物联创客微博" border="0"/></a></li>
+              
+            </ul>
+          </li>
+          <li class="login"><a href="../../denglu/index.html" target="_blank" class="btnd btn-dim">登录</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+<div class="main-nav">
+    <div class="grid-1200 nav-wrap pr clearfix">
+      <div class="main-nav-logo fl"> <a href="http://micioe.com/micioe/1.html" clstag="jr|keycount|jr_shouye|jrlogo"> <img src="//img.alicdn.com/imgextra/i2/1105832541/TB29lYXuXXXXXbUXXXXXXXXXXXX_!!1105832541.png" width="400" height="56" alt="MicIoE微物联科技"> </a> </div>
+      <div class="nav fl">
+        <ul class="nav-box fl clearfix" id="navBox">
+          <li id="nav-index" class="nav-item"><a class="nav-item-primary" href="http://micioe.com/micioe/1.html" clstag="jr|keycount|jr_shouye|shouye">网站首页</a></li>
+          <li id="nav-licai" class="nav-item"> <a class="nav-item-primary" href="../../about_a/index.html" clstag="jr|keycount|jr_shouye|jr_shouye_licai">关于我们</a>
+            <ul class="dropbox">
+            
+              <li><a href="../../about/about_a/index.html" clstag="jr|keycount|jr_shouye|jjxjk">MicIoE简介</a></li>
+              <li><a href="../../about/team/index.html" clstag="jr|keycount|jr_shouye|jjxjk">团队文化</a></li>
+              <li><a href="../../about/recruit/index.html" clstag="jr|keycount|jr_shouye|jjxjk">人才招聘</a></li>
+              <li><a href="../../about/roop/index.html" clstag="jr|keycount|jr_shouye|jjxjk">研发合作</a></li>
+            </ul>
+          </li><li id="nav-licai" class="nav-item"> <a class="nav-item-primary" href="http://micioe.com/main/www.micioe.com" clstag="jr|keycount|jr_shouye|jr_shouye_licai">创客资讯</a>
+            <ul class="dropbox">
+            
+              <li><a href="../new1/index.html" clstag="jr|keycount|jr_shouye|jjxjk">公司新闻</a></li>
+              <li><a href="index.html" clstag="jr|keycount|jr_shouye|jjxjk">行业新闻</a></li>
+              <li><a href="../new3/index.html" clstag="jr|keycount|jr_shouye|jjxjk">专业知识</a></li>
+            </ul>
+          </li><li id="nav-licai" class="nav-item"> <a class="nav-item-primary" href="../../case/index.html" clstag="jr|keycount|jr_shouye|jr_shouye_licai">智能案例</a>
+            <ul class="dropbox">
+            
+              <li><a href="../../case/case/index.html" clstag="jr|keycount|jr_shouye|jjxjk">智能案例</a></li>
+              <li><a href="../../case/case1/index.html" clstag="jr|keycount|jr_shouye|jjxjk">智能产品</a></li>
+              <li><a href="../../case/m8/index.html" clstag="jr|keycount|jr_shouye|jjxjk">创意开发</a></li>
+              <li><a href="../../case/circuit/index.html" clstag="jr|keycount|jr_shouye|jjxjk">集成电路</a></li>
+            </ul>
+          </li><li id="nav-licai" class="nav-item"> <a class="nav-item-primary" href="../../design/index.html" clstag="jr|keycount|jr_shouye|jr_shouye_licai">管理团队</a>
+            <ul class="dropbox">
+            
+              <li><a href="../../team/techgy/index.html" clstag="jr|keycount|jr_shouye|jjxjk">技术团队</a></li>
+            </ul>
+          </li><li id="nav-licai" class="nav-item"> <a class="nav-item-primary" href="../../service/index.html" clstag="jr|keycount|jr_shouye|jr_shouye_licai">智能集成</a>
+            <ul class="dropbox">
+            
+              <li><a href="../../service/hard/index.html" clstag="jr|keycount|jr_shouye|jjxjk">硬件打板</a></li>
+              <li><a href="../../service/harder/index.html" clstag="jr|keycount|jr_shouye|jjxjk">硬件创意</a></li>
+              <li><a href="../../service/future/index.html" clstag="jr|keycount|jr_shouye|jjxjk">未来展示</a></li>
+              <li><a href="../../service/app/index.html" clstag="jr|keycount|jr_shouye|jjxjk">APP软件</a></li>
+              <li><a href="../../service/reform/index.html" clstag="jr|keycount|jr_shouye|jjxjk">改造方案</a></li>
+            </ul>
+          </li><li id="nav-licai" class="nav-item"> <a class="nav-item-primary" href="../../and/index.html" clstag="jr|keycount|jr_shouye|jr_shouye_licai">项目框架</a>
+            <ul class="dropbox">
+            
+              <li><a href="../../and/and/index.html" clstag="jr|keycount|jr_shouye|jjxjk">正在研发</a></li>
+              <li><a href="../../and/ist/index.html" clstag="jr|keycount|jr_shouye|jjxjk">投资合作</a></li>
+            </ul>
+          </li><li id="nav-licai" class="nav-item"> <a class="nav-item-primary" href="../../cooper/index.html" clstag="jr|keycount|jr_shouye|jr_shouye_licai">合作联系</a>
+            <ul class="dropbox">
+            
+              <li><a href="../../cooper/us/index.html" clstag="jr|keycount|jr_shouye|jjxjk">联系我们</a></li>
+              <li><a href="../../cooper/vation/index.html" clstag="jr|keycount|jr_shouye|jjxjk">创新服务</a></li>
+              <li><a href="../../cooper/idea/index.html" clstag="jr|keycount|jr_shouye|jjxjk">理念合作</a></li>
+              <li><a href="../../cooper/project/index.html" clstag="jr|keycount|jr_shouye|jjxjk">自主项目</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div></div>
+<div class="post-img margin-t87" style="background: url('../../uploads/allimg/c160215/1455541MV9520-R929_lit.png') no-repeat center center;background-size:cover;">
+  <div class="overlay"></div>
+  <div class="single-inner">
+    <div class="post-head">
+      <h3 class="title">Ticwatch体验式评测：充电和续航成瓶颈</h3>
+    </div>
+    <div class="post-meta">
+      <div class="autor-meta"> <a class="autor" href="#"> <img src="//img.alicdn.com/imgextra/i2/1105832541/TB2nMlAXg_xQeBjy0FoXXX1vpXa_!!1105832541.jpg" alt="" class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo" height="26" width="30"> <span class="name">作者：</span> </a> <span class="post-time">2016-02-15 23:43</span> <span class="post-category"> <i class="icon-layout"></i>来源：</span> <a href="#gocomment" class="sm-comment"></a> <a href="#gocom">
+        <div class="comment">快速评论（<span>0</span>）</div>
+        </a> </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row_list">
+    <div class="main-content col-md-12 col-sm-12 col-xs-12">
+      <div class="outline">
+        <p>不知道是出于何种缘由，我特别喜欢体验智能化的可穿戴设备。智能化之所以带双引号，或许是我个人都还没有足够的底气称它们为智能设备吧。上一次体验的智能手表，是 inW...</p></div>
+      不知道是出于何种缘由，我特别喜欢体验&quot;智能化&quot;的可穿戴设备。&quot;智能化&quot;之所以带双引号，或许是我个人都还没有足够的底气称它们为&quot;智能设备&quot;吧。上一次体验的&quot;<span class="taglink">智能手表</span>&quot;，是 inWatch Z ，那不畅快的体验感受还历历在目。这一次主角换成 <span class="taglink">Ticwatch</span> ，事实上我非常期待它能够带来全新的体验，让我看到智能手表真正强于传统手表的闪光点。<br />
+<br />
+<strong>手表若无颜值，难有位置</strong><br />
+<br />
+手表作为腕上佩戴的装饰物，如果没有颜值我想很难有想要佩戴的冲动，而每一款手表也总有与之相匹配的装束打扮，有些偏休闲，有些则偏商务。不过无论如何，我还是觉得方形表盘对于手表而言并不适合，虽然说不出理由，就当我是偏执吧。<br />
+
+	<img src="../../uploads/allimg/c160215/1455541MV9520-R929.png" class="img-polaroid" title="Ticwatch_001.png" alt="Ticwatch_001.png" />
+
+<br />
+<br />
+Ticwatch 的圆形表盘，第一眼看上去至少符合我的审美，但细看总感觉缺乏一点大气，换句话说就是看起来有些廉价。46mm 表盘不大也不小，于我刚刚好。对于妹子来说可能就少少大了一些了。<br />
+<br />
+由于手表也算得上是贴身饰品，佩戴的舒适度就显得尤为重要。 Ticwatch 的重量算得上轻量级， 11.95mm 厚的表盘也算不上累赘，最重要的表带则是意大利老厂Monteverdi出品的小牛皮表带（另有米兰尼斯钢制表带版本），柔软贴合皮肤，佩戴时确实非常舒适，有时候甚至会忘记自己原来佩戴了手表。<br />
+<br />
+不过不得不提一点， Ticwatch 的小牛皮表带容易磨损，体验的这段时间里，正常佩戴下已经出现一些磨损掉皮的情况。同样出现磨损的还有那块1.5寸半透半反康宁大猩猩屏幕。在体验过程中这块屏幕已经有一条淡淡的划痕，边框的不锈钢上也出现一小段划痕，相比之下感觉我手上另外一款卡西欧传统手表的硬度要高出不少，当然这或许是由于手表熄屏时全黑看得更清楚的缘故。<br />
+<br />
+<strong>智能手表定位尴尬</strong><br />
+<br />
+这是一个前所未有的时代，我们需要更高的效率以完成更多的任务，需要更好的体验来享受更美好的生活，所以&quot;智能&quot;被加入到每一样我们能接触到的事物——智能手机、智能电视、智能路由器、智能音箱等等，而在智能手机之后，智能可穿戴设备这个概念着实也火了一把，毕竟作为贴身物件，可穿戴设备具备另类的优势。<br />
+<br />
+那我们需要怎样的一款智能手表？<br />
+<br />
+&quot;一款独立存在的智能手表？&quot;<br />
+&quot;可以打电话、发短信、刷微博、发微信，还能网购转账的手表？&quot;<br />
+&quot;在寸土寸金的手腕上你能够用多大的屏幕进行操作？&quot;<br />
+&quot;还是做一款智能手机的通用配件，作为手机以外的第二屏幕，可以处理轻度信息，搜索轻度内容或者辅助手机收集某些信息？“<br />
+<br />
+
+	<img src="../../uploads/allimg/c160215/1455541N04960-b1P.png" class="img-polaroid" title="Ticwatch_002.png" alt="Ticwatch_002.png" />
+
+<br />
+<br />
+曾经在 inWatch Z 上我看不到清晰的定位，既可以脱离手机独立使用，却又无法很好地独立完成部分手机功能，体验并不好。这一次在 Ticwatch 上看到明显的进步，但问题也有不少。 Ticwatch 能做到并且做好的事情多了：当手表与手机建立起很好的联系时，手机上几乎所有的消息都会及时反馈到手表上，你可以根据表盘上显示的简要信息来判断是否需要拎起手机进行处理；当你需要执行简单的搜索任务时， Ticwatch 上准确的语音识别配合&quot;出门问问&quot;在移动搜索领域积累的基础能够很好的帮助你快速找到一些信息。<br />
+<br />
+听起来还挺棒，不过如果在任意一环节出了点问题，整个体验就变得不好了。例如：搜索附近美食时，会出现一些错误信息，明明不存在的餐厅却被标记进入美食列表；虽然可以搜到某一地址并设定为目的地，但体验过程中我从未成功使用过这个导航功能，也不知道是我太笨还是它太笨了。<br />
+<br />
+语音识别、语义理解以及搜索技术确实是需要积累的，毕竟不是随便哪家都能做出像微软小娜一样的产品。或许作为一款有着高语音识别率、使用流畅、操作舒服的智能手表， Ticwatch 的定位也慢慢清晰，但一旦用户在使用手表时无法比手机更快获取准确信息时，我想不到有什么理由不拿起手机放弃手腕上那块小小的屏幕。就目前的情况来说，  Ticwatch 能做的事情，除了测心率等特殊功能以外几乎手机都能完成，并且完成得更好。<br />
+<br />
+<strong>手表要智能也需付出代价</strong><br />
+<br />
+前面说了那么多，基本都是围绕着&quot;智能&quot;在谈，而抛开智能， Ticwatch 的手表属性也不能不谈。作为一款手表，最重要的两个功能无非就是看时和装饰，换句话说一个是给自己看，一个是给别人看。<br />
+<br />
+为了保证续航，智能手表表盘大多数都不会每时每刻显示时间，通常的做法就是手动点亮手表屏幕查看和抬手激活点亮屏幕。在 Ticwatch 上，抬手亮屏的功能体验并不好，很多时候抬起手后都要等上个半秒到一秒钟屏幕才亮起，但有时候又过于灵敏，动不动屏幕就亮一下。<br />
+<br />
+
+	<img src="../../uploads/allimg/c160215/1455541N309360-10W18.png" class="img-polaroid" title="Ticwatch_004.png" alt="Ticwatch_004.png" />
+
+<br />
+<br />
+拥有众多表盘资源的 Ticwatch ，一般都能找到适合各种不同风格的表盘，但体验过后发现不少表盘的显示效果都不太完美，要么天气无法显示，要么时间显示异常，最后选定小黄人表盘，虽然可爱但也是妥协。<br />
+<br />
+<strong>智能手表的瓶颈？</strong><br />
+<br />
+如果问什么是智能手表最大的瓶颈，我猜不少人的回答会是续航吧？ Ticwatch 的续航表现算不上好，一天中等强度使用，到11点上床睡觉时剩余电量最多 20% 。在体验过程中我曾遇到过不下 3 次异常耗电的情况，早上出门前手表电量大概 98% ，可是到午后手表已经完全没了反应，按开机键才发现原来是电量耗尽。当然了，这些问题在频繁的固件更新之后总会得到改善。<br />
+<br />
+
+	<img src="../../uploads/allimg/c160215/1455541N504D0-114601.png" class="img-polaroid" title="Ticwatch_003.png" alt="Ticwatch_003.png" />
+
+<br />
+<br />
+在 Ticwatch 的体验期间，如果要让我说出一个比续航带来的体验问题还大的，估计就是充电。 Ticwatch 使用磁吸式无线充电，外观上也没什么可以挑剔的，吸附时的感觉也不错，但最大问题是在充电时，正常的时候充电板会亮绿灯，此时也正常得很，但经常会出现莫名其妙的表盘乱闪，一会显示充电一会表盘的小黄人又跳出来，我猜测是类似接触不良的问题，充电充不进去，半夜经常也会被闪烁的手边光亮骚扰到，第二天起来也会发现手边不仅充不进去点，还会因为发热导致耗电量急剧增加。此时的充电板是亮着红灯，手表本体的温度较高，具体是不是由于问题过高导致无法充电我倒没有考究，如果有清楚情况的，欢迎补充介绍。<br />
+<br />
+当下的众多智能设备，随着使用需求和强度的增加，对设备自身性能的要求也越来越高，而续航和发热也成为困扰用户和厂商的大问题。手表作为随身佩戴的设备，与手腕是亲密接触的，一点点温度的变化都会比较敏感。发热一方面降低佩戴的舒适度，另一方面带来高耗电量，两方面的问题都把智能手表朝着体验差的方向用力推了一把。在无法很好解决续航和发热的这两大问题时，贸然去不断提升智能手表的性能、增加各种功能，显然是不把用户体验放在第一位的选择，就跟强行在手机上加入指纹识别一样，如果无法将指纹识别融合在正面的话，那就跟&quot;内裤反穿&quot;一样，不会是很好的体验。<br />
+<br />
+总的来说， Ticwatch 的进步是明显的，无论是操作的流畅度、便捷度，还是功能上的定位，都看到比之前的一些品牌一些产品要优秀一些。 Ticwatch 本身的一些问题，并不是个例，而是整个行业整个智能手表领域的通病，能不能解决这些问题，决定了智能手表能不能成为智能手机之后又一件改变生活方式的利器。 
+                                                                    
+                                                                                                                                                                                                                                                                                                                                                                                                                            
+                                
+                                                                    <ul class="aw-upload-file-list">
+                                                                                                                                                                                                                                                                                                                                                                                                                            </ul>
+      <div class="dede_pages">
+   <ul class="pagelist">
+   
+   </ul>
+  </div>
+      <div class="copyright-statement">
+        <p> <span class="text-blue">版权声明：</span> 本文作者<a href="#" target="_blank"></a>，文中所述为作者独立观点，不代表立场。 </p>
+      </div>
+      <div class="approe" onclick="javascript:postDigg('good',469)" id="gocom"> <span class="num" id="supports">(0)</span> </div>
+      <div class="row tags-warp">
+        <div class="col-md-6 sm-share">
+          <div class="row">
+            
+            <div class="col-md-6 col-xs-7 clearfix">
+              
+              
+              
+              <div class="bshare-custom icon-medium-plus"><a title="分享到QQ空间" class="bshare-qzone"></a><a title="分享到新浪微博" class="bshare-sinaminiblog"></a><a title="分享到人人网" class="bshare-renren"></a><a title="分享到腾讯微博" class="bshare-qqmb"></a><a title="分享到网易微博" class="bshare-neteasemb"></a><a title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a><span class="BSHARE_COUNT bshare-share-count">0</span></div><script type="text/javascript" charset="utf-8" src="../../../static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh"></script><script type="text/javascript" charset="utf-8" src="../../../static.bshare.cn/b/bshareC0.js"></script>
+              
+              
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="tags"> <span class="text-tag">标签</span>  </div>
+        </div>
+        <div id="comments"> 
+      
+      <!--评论框-->
+      <div class="commentpost" id="comment"> <!-- Duoshuo Comment BEGIN -->
+	<div class="ds-thread"  data-thread-key="469" data-author-key="1"  data-url="http://www.micioe.com/news/news2/469.html"  data-image="http://www.micioe.com/uploads/allimg/c160215/1455541MV9520-R929_lit.png" data-title="Ticwatch体验式评测：充电和续航成瓶颈"></div>
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name: "bgu"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = '../../../static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- Duoshuo Comment END --><div id="ds-ssr" class="mt1">
+	<dl class="tbox">
+		<dt> <strong>评论列表（网友评论仅供网友表达个人看法，并不表明本站同意其观点或证实其描述）</strong> </dt>
+		<dd>
+			<div class="dede_comment">
+				<div class="decmt-box1">
+					<ul>
+						<li id="commetcontentNew"></li>
+
+ 
+					</ul>
+				</div>
+			</div>
+		</dd>
+	</dl>
+</div>
+
+ </div>
+    </div>
+      </div>
+      
+    </div>
+    
+  </div>
+  
+</div>
+
+<script type="text/javascript" src="../../style/js/jquery.SuperSlide.2.1.1.js"></script>
+<!-- footer start -->
+
+<footer style="background-image: url(//img.alicdn.com/imgextra/i1/1105832541/TB2Z6a3uXXXXXasXpXXXXXXXXXX_!!1105832541.jpg);" class="pingpu-bg" id="yy">
+  <div id="demo" class="footer container sx-padding">
+    <div class="clearfix wow animated fadeIn">
+      <section>
+        <h3>在线预约 Online booking</h3>
+        <form action="http://www.micioe.com/plus/diy.php" enctype="multipart/form-data" method="post" name="lansige" onSubmit="return CheckForm()" >
+          <input type="hidden" name="action" value="post" />
+          <input type="hidden" name="diyid" value="2" />
+          <input type="hidden" name="do" value="2" />
+          <ul class="list-unstyled">
+            <li>
+              <input name="xm" type="text" id="xm" value="" placeholder="您的尊称 Name" maxlength="10" >
+            </li>
+            <li>
+              <input name="dh" type="text" id="dh" value="" placeholder="您的电话 Phone" maxlength="11">
+            </li>
+            <li>
+              <textarea name="nr" cols="" id="nr" value="" placeholder="您要留言的内容 Content" maxlength="200">您要留言的内容 Content</textarea>
+            </li>
+            <input type="hidden" name="dede_fields" value="xm,text;dh,text;nr,multitext" />
+            <input type="hidden" name="dede_fieldshash" value="af9692c6aaa5752e3fce5a141f10a7c8" />
+            <li>
+              <input type="submit" name="submit" value="提 交" class='coolbg' />
+            </li>
+          </ul>
+        </form>
+        <div id="savediv" style="visibility:hidden;">处理中,请勿进行其他操作...</div>
+        <script language="javascript" type="text/javascript">
+function gosavenow(){
+savediv.style.visibility="visible";}
+</script> 
+        <script language="javascript" type="text/javascript">
+function CheckForm() {
+if(lansige.xm.value == '') {
+alert('对不起！请输入您的称呼！');
+lansige.xm.focus();
+return false;}   
+if(lansige.dh.value == '') {
+alert('对不起！请输入您的电话！');
+lansige.dh.focus();
+return false;}    
+var re = new RegExp("^([0-9])+$","ig");
+{if (!re.test(lansige.dh.value))
+{alert("对不起！电话只能是0-9的数字！");
+lansige.dh.focus();
+return false;}}
+if(lansige.nr.value == '') {
+alert('对不起！请输入您的留言内容(不超过200个字)！');
+lansige.nr.focus();
+return false;}  
+gosavenow();}
+</script> 
+      </section>
+      <section class="bianju">
+        <h3>联系我们 Contact US</h3>
+        <address>
+        <ul class="list-unstyled">
+          <li>公司地址：福州市闽侯上街大学城路海西科技园10号楼留创园</li>
+          <li>服务电话：950-40402754（境内/境外可直拨我司950服务电话） </li>
+          <li>项目服务：VR强应用（微信公众号）</li>
+          <li>Q　　Q：504115485-客服咨询</li>
+          <li>E-mail：504115485@QQ.com（项目保密合作）</li>
+        </ul>
+        </address>
+        <h4>快捷入口 Quick Entry</h4>
+        <p>  <a href="../../about_a/index.html" target="_blank">关于我们</a> / 
+           <a href="http://micioe.com/main/www.micioe.com" target="_blank">创客资讯</a> / 
+           <a href="../../case/index.html" target="_blank">智能案例</a> / 
+           <a href="../../design/index.html" target="_blank">管理团队</a> / 
+           <a href="../../service/index.html" target="_blank">智能集成</a> / 
+           <a href="../../and/index.html" target="_blank">项目框架</a> / 
+           <a href="../../cooper/index.html" target="_blank">合作联系</a> / 
+           <a href="../../social/index.html" target="_blank">数据报告</a> /  <a href="../../statement/index.html" target="_blank">版权声明</a> / <a href="../../and/ist/index.html" target="_blank">投资</a> / <a href="../../service/future/index.html" target="_blank">未来硬件</a> / <a href="http://tmtctw.cn" target="_blank">3D打印</a></p>
+        <p class="zhixun"> <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=504115485&amp;site=qq&amp;menu=yes" class="qq" target="_blank">在线QQ咨询</a> </p>
+      </section>
+      <section>
+        <h3>内容搜索 Search</h3>
+         <form name="formsearch" action="http://www.micioe.com/plus/search.php">
+           <ul class="list-unstyled">
+             <li><input name="q" type="text" class="key" value="输入关键词 Keyword" placeholder="输入关键词 Keyword" /><input type="submit" class="s-button" value="搜索" /></li>
+             </ul>
+             </form>
+              <form method="post" target="_blank" action="http://list.qq.com/cgi-bin/qf_compose_send">
+               <ul class="list-unstyled">
+                <li class="mail-tx">输入邮箱定期接收我们的最新信息</li>
+                 <li><input type="hidden" value="qf_booked_feedback" name="t" />
+                      <input type="hidden" value="79d7181ac4d8b0144664925406fa6b1ebc29568929546ae8" name="id" />
+                 <input type="text" class="mail" name="to" id="to" value="Email Address" placeholder="Email Address" /><input type="submit" class="m-button" value="提交"></li>
+                    </ul>
+                  </form>
+                  <div class="footer_img">
+                  <div class="footer_img_center">
+                  <P>产品经理</P>
+   <img src="https://cbu01.alicdn.com/img/ibank/2016/929/136/3320631929_506682427.jpg" />
+   </div>
+     <div class="footer_img_center floret">
+                  <P>官方公众</P>
+   <img src="https://cbu01.alicdn.com/img/ibank/2016/092/290/3320092290_506682427.jpg" />
+   </div>
+ </div>
+ </section>
+ 
+    </div>
+    <div class="yq-link">
+      <hr />
+      <p><strong>友情链接：</strong>  <a href="http://micioe.com/micioe/1.html" target="_blank">MicIoE微物联科技</a> <a href="http://micioe.com/micioe/1.html" target="_blank">智能硬件方案</a><small>友链申请QQ：504115485</small></p>
+    </div>
+  </div>
+<div class="foot">
+    <div class="container clearfix">
+      <p class="copy pull-left">Copyright &copy; 2002-2015 MicIoE微物联科技 ALL RIGHTS RESERVED <a href="http://www.miitbeian.gov.cn/state/outPortal/loginPortal.action" target="_blank">闽ICP备18010811号</a>  BY <a href="http://micioe.com/micioe/1.html" target="_blank">技术支持</a> <a href="../../problem/index.html" target="_blank">建议提交</a> <span>运行在<i class="tx"></i></span> <a href="http://weibo.com/fenzimeisi" target="_blank">闽ICP备18010811号</a></p>
+      <p class="renzheng pull-right text-right" style="text-align: right;"> <img src="//img.alicdn.com/imgextra/i3/1105832541/TB2AJjbuXXXXXXfXpXXXXXXXXXX_!!1105832541.png" width="32" height="32" alt="工商合法注册企业" title="工商合法注册企业" /> <img src="//img.alicdn.com/imgextra/i4/1105832541/TB2ZTvsuXXXXXaJXXXXXXXXXXXX_!!1105832541.png" width="32" height="32" alt="安全网站" title="安全网站" /> <img src="//img.alicdn.com/imgextra/i2/1105832541/TB26ri4uXXXXXbdXpXXXXXXXXXX_!!1105832541.png" width="32" height="32" alt="网上报警" title="网上报警" /> <img src="//img.alicdn.com/imgextra/i3/1105832541/TB2UmnauXXXXXXFXpXXXXXXXXXX_!!1105832541.png" width="32" height="32" alt="中国物联网协会会员" title="中国物邮网协会成员" /> <img src="//img.alicdn.com/imgextra/i4/1105832541/TB2st5ZuXXXXXbWXpXXXXXXXXXX_!!1105832541.png" width="32" height="32" alt="中国区块链协会成员" title="中国邮件区块链协会会员" /> </p>
+    </div>
+  </div>
+</footer>
+<!-- footer end --> 
+<!-- kehu start -->
+<div class="QQ_S">
+  <div class="Q_top" onclick="HideFoot()"> <span class="signi"></span>收起</div>
+  <div class="Q_botm">
+    <div class="Q_pic">
+      <div class="Q_pic_hide"> <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=504115485&amp;site=qq&amp;menu=yes" target="_blank" title="企业QQ交谈" rel="nofollow"><span class="hide_pic"></span>企业QQ交谈 </a> </div>
+    </div>
+    <div class="Q_anser">
+      <div class="Q_anser_hide"> <a href="https://eco-api.meiqia.com/dist/standalone.html?eid=5173&amp;agentid=d47074948994ad6ae940a42ad6117af9" title="提交有问必答"><span class="hide_pic1"></span>提交有问必答 </a> </div>
+    </div>
+    <div class="Q_sign">
+      <div class="Q_sign_hide" onclick="backToTop();"><a href="#topbar" title="返回顶部"><span class="hide_pic2"></span>返回顶部 </a></div>
+    </div>
+  </div>
+</div>
+<div class="QQ_S1">
+  <div class="Q_top1" onclick="ShowFoot()"> <span class="signj"></span>展开</div>
+  <div class="Q_botm1">
+    <div class="Q_pic1">
+      <div class="Q_pic1_hide"> <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=504115485&amp;site=qq&amp;menu=yes" rel="nofollow"><span class="hide_pic3"></span>QQ交谈</a></div>
+    </div>
+    <div class="Q_sign1">
+      <div class="Q_sign1_hide"><a href="#topbar">返回顶部</a></div>
+    </div>
+  </div>
+</div>
+<script src="../../style/js/lanrenzhijia.js"></script>
+<script type='text/javascript'>
+    (function(m, ei, q, i, a, j, s) {
+        m[a] = m[a] || function() {
+            (m[a].a = m[a].a || []).push(arguments)
+        };
+        j = ei.createElement(q),
+            s = ei.getElementsByTagName(q)[0];
+        j.async = true;
+        j.charset = 'UTF-8';
+        j.src = i;
+        s.parentNode.insertBefore(j, s)
+    })(window, document, 'script', '../../../eco-api.meiqia.com/dist/meiqia.js', '_MEIQIA');
+    _MEIQIA('entId', 5173);
+</script>
+<script> var _hmt = _hmt || []; (function() {   var hm = document.createElement("script");   hm.src = "../../../hm.baidu.com/hm21a2.js?436848be446d7628509a5f70f9514888";   var s = document.getElementsByTagName("script")[0];    s.parentNode.insertBefore(hm, s); })(); </script>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-105845586-1', 'auto');ga('send', 'pageview');</script></body>
+
+<!-- Mirrored from www.micioe.com/news/news2/469.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 Jul 2016 01:25:08 GMT -->
+</html>
