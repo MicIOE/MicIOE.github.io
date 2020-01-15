@@ -29,6 +29,6 @@ https://www.indiegogo.com/projects/information-moon-blockchain-iot-moon-landing-
 游西湖提锡壶，锡壶落西湖，惜乎锡壶
 临蟾宫抚獑弓，獑弓弃蟾宫，婵恭獑弓
 
-对二
+对二：
 游西湖提锡壶，锡壶落西湖，惜乎锡壶
 登嫦宫携长弓，长弓折嫦宫，裳躬长弓
